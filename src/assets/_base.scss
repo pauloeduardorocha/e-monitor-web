@@ -1,0 +1,129 @@
+// Set your colors
+$body-size: 12px;
+$text: $grey;
+
+$border-color: $grey-lighter;
+$spin-color: $primary;
+$spin-margin: 3px;
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+// Components
+body, html {  background: $white-ter !important;  }
+.title { word-break: normal !important; }
+
+.cabecalho-sistema{
+  background: $primary;
+  color: $primary-invert !important;
+  span{
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+}
+.page {
+  //padding-top: 60px;
+}
+
+.modal-content {
+  width: 100% !important;
+  form footer {  padding: 1rem 1.5rem 1.5rem; text-align: right;  }
+}
+
+.tab-content{ padding: 0 !important;}
+
+.cursor-pointer { cursor: pointer }
+
+.dados {
+  label {
+    display: block;
+    color: $grey;
+    min-width: 60px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+  }
+  span {
+    font-size: 1.05rem;
+    display: block;
+    padding: 4px 0 13px;
+  }
+  dd {
+    font-weight: bold;
+  }
+  dt {
+    color: $grey-darker;
+    background: $white-ter;
+    margin: 3px 0;
+    padding: 2px 2px 2px 15px;
+  }
+}
+
+.mx-input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.25em;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  line-height: 1.5;
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: calc(0.625em - 1px);
+  padding-right: calc(0.625em - 1px);
+  padding-top: calc(0.375em - 1px);
+  position: relative;
+  vertical-align: top;
+  background-color: white;
+  border-color: #dbdbdb;
+  color: #363636;
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+  max-width: 100%;
+  width: 100%;
+}
+
+.view-columns .columns, .view-columns .column {  margin: 0 !important; padding: 0 !important; }
+
+.is-mini {  height: 5px !important;  }
+
+.upload-panel {  border: thin dashed #CCC; background-color: whitesmoke; cursor: pointer; }
+.upload-panel:hover {  background-color: #E3E3E3;  }
+
+.b-table .table:focus, .table-wrapper:focus {
+  border: transparent !important;
+  outline: transparent;
+}
+.b-table .table .detail td {  box-shadow: none !important;  }
+
+// Scoll
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  background-color: $light;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: $light;
+}
+::-webkit-scrollbar-thumb {
+  background-color: darken($light, 20);
+}
+
+@import "./table";
+@import "./border";
+@import "./img";
+@import "./padding";
+@import "./margin";
+@import "./spinner";
+@import "./progress";
+
+html object {
+  display: none;
+}

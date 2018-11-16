@@ -1,0 +1,45 @@
+// imagensOnu
+
+img.img-circle {
+  border-radius: 100%;
+}
+
+img.circle-border {
+  border: 6px solid #fff;
+  border-radius: 50%;
+}
+
+img.img-xs {
+  object-fit: cover;
+  object-position: center;
+  width: 20px;
+  height: 20px;
+}
+
+img.img-sm {
+  object-fit: cover;
+  object-position: center;
+  width: 32px;
+  height: 32px;
+}
+
+img.img-md {
+  object-fit: cover;
+  object-position: center;
+  width: 64px;
+  height: 64px;
+}
+
+img.img-lg {
+  object-fit: cover;
+  object-position: center;
+  width: 96px;
+  height: 96px;
+}
+
+img.img-xl {
+  object-fit: cover;
+  object-position: center;
+  width: 164px;
+  height: 164px;
+}

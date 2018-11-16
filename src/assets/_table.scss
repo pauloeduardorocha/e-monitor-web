@@ -1,0 +1,30 @@
+.table {
+  .is-hoverable {
+    cursor: pointer !important;
+  }
+}
+
+.b-table .table .detail td {  box-shadow: none !important;  }
+
+.b-table .table:focus {
+  border: 1px solid transparent !important;;
+  box-shadow: none !important;
+}
+
+.row-click {
+  cursor: pointer !important;
+}
+
+.row-button {
+  td:last-child {
+    text-align: right;
+  }
+  .button {
+    visibility: hidden;
+    margin-bottom: 0;
+  }
+  tr:hover .button {
+    visibility: visible;
+  }
+}
+
