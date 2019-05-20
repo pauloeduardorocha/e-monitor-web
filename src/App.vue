@@ -5,7 +5,16 @@
     <navbar-menu />
 
     <div class="page m-md">
-      <router-view />
+      <columns>
+        <column s2>
+          <box>
+            <sidebar />
+          </box>
+        </column>
+        <column>
+          <router-view />
+        </column>
+      </columns>
     </div>
 
   </div>
@@ -13,9 +22,10 @@
 
 <script>
 import NavbarMenu from './components/Menu.vue'
+import Sidebar from './components/default-components/Sidebar.vue'
 
 export default {
   name: 'app',
-  components: {NavbarMenu}
+  components: {NavbarMenu, Sidebar}
 }
 </script>

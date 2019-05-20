@@ -8,6 +8,9 @@ export const C = {
   URL: {
     PACIENTE: {
       BASE: SERVER_ADDRESS + 'paciente/'
+    },
+    RECEITA: {
+      BASE: SERVER_ADDRESS + 'receita/'
     }
   }
 }
