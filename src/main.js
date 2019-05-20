@@ -29,7 +29,6 @@ Vue.filter('item', item)
 Vue.filter('itemApp', itemApp)
 
 Vue.component('botao', () => import('./components/default-components/Botao'))
-
 Vue.component('box', () => import('./components/default-components/Box'))
 Vue.component('column', () => import('./components/default-components/Column'))
 Vue.component('columns', () => import('./components/default-components/Columns'))
